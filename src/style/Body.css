@@ -1,0 +1,25 @@
+.body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.text {
+    padding: 20px;
+    position: relative;
+    width: 70%;
+    border-radius: 15px;
+    backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+h4 {
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+.paragraph {
+    display: flex;
+    width: 100%;
+    text-align: left;
+    justify-content: center;
+}

@@ -1,0 +1,66 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+ul {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 0%;
+}
+
+ul li {
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+}
+
+#home, #cars, #about {
+    border: none;
+    background-color: rgba(255, 255, 255 ,0.5);
+    padding: 0.5em;
+    width: 4em;
+}
+
+#home:hover {
+    background-color: rgba(50, 78, 54, 1);
+    color: #fff;
+}
+#home:hover a{
+    color: white;
+}
+
+#cars:hover {
+    background-color: rgba(50, 78, 54, 1);
+    color: #fff;
+}
+#cars:hover a{
+    color: white;
+}
+
+#about:hover {
+    background-color: rgba(50, 78, 54, 1);
+    color: #fff;
+}
+#about:hover a{
+    color: white;
+}
+
+@media screen and (min-width: 568px) {
+    #home, #cars, #about {
+        min-width: 6em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #home, #cars, #about {
+        min-width: 9em;
+    }
+}

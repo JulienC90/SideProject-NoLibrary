@@ -1,0 +1,104 @@
+.about {
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-page {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-about {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.green-bar {
+    height: 5px;
+    width: 250px;
+    border: 1px solid #324E36;
+    background-color: #324E36;
+}
+
+.disclaimer {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.disclaimer-text {
+    width: 100%;
+    text-align: left;
+    margin: 0.5em 0;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+.inventory-items {
+    width: 60%;
+    padding: 0 20px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.inventory {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 0;
+    padding-top: 0.5em;
+}
+  
+.items {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 0.5em 0;
+}
+
+.items li {
+    justify-content: center;
+    width: 100%;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+
+.inventory-img {
+    width: 60%;
+    padding: 0 20px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.inventory-list {
+    flex-direction: column;
+    width: 100%;
+    margin: 0.5em 0;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+.copyright p {
+    position: fixed;
+    margin:0;
+    bottom: 0;
+    padding: 5px;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+@media screen and (min-width: 1450px) {
+    .disclaimer, .inventory-items, .inventory-img {
+        width: 50%;
+    }
+}
