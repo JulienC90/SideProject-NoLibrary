@@ -5,19 +5,25 @@ export default function NavBar() {
 		<nav className="nav">
 			<ul>
 				<li>
-					<button type="button" id="home">
-						<Link to="/">Home</Link>
-					</button>
+					<Link to="/">
+						<button type="button" id="home">
+							Home
+						</button>
+					</Link>
 				</li>
 				<li>
-					<button type="button" id="cars">
-						<Link to="/cars">Cars</Link>
-					</button>
+					<Link to="/cars">
+						<button type="button" id="cars">
+							Cars
+						</button>
+					</Link>
 				</li>
 				<li>
-					<button type="button" id="about">
-						<Link to="/about">About</Link>
-					</button>
+					<Link to="/about">
+						<button type="button" id="about">
+							About
+						</button>
+					</Link>
 				</li>
 			</ul>
 		</nav>
