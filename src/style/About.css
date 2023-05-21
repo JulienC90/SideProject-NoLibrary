@@ -88,11 +88,13 @@
     margin: 0.5em 0;
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
 }
-
-.copyright p {
+.copyright {
     position: absolute;
-    margin:0;
     bottom: 0;
+}
+.copyright p {
+    margin:0;
+    text-align: left;
     padding: 5px;
     font-weight: bold;
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
