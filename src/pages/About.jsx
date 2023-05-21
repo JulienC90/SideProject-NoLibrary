@@ -39,9 +39,11 @@ export default function About() {
 						</li>
 					</ul>
 				</div>
-				<div className="copyright">
-					<p>&copy; J.C - 2023</p>
-				</div>
+				<footer>
+					<div className="copyright">
+						<p>&copy; J.C - 2023</p>
+					</div>
+				</footer>
 			</div>
 		</>
 	);
